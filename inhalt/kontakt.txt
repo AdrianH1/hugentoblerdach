@@ -1,0 +1,22 @@
+﻿<h1 id="kontakttitel">Kontakt</p></h1>
+
+<table>	<tr>
+		<td>Josef Hugentobler</td>
+		<td>Tel. 052 657 36 36</td>
+	</tr>
+
+	<tr>
+		<td>eidg. dipl. Dachdeckermeister</td>
+		<td>Fax. 052 657 51 91</td>
+	</tr>
+
+	<tr>
+		<td>Bahnhofstrasse 1</td>
+		<td>E-Mail <a href="mailto:info@hugentoblerdach.ch" class="email">info@hugentoblerdach.ch</a></td>
+	</tr>
+
+	<tr>
+		<td>8253 Diessenhofen</td>
+		<td>Werkstatt: Türmlistrasse 8, 8252 Schlatt</td>
+	</tr>
+</table>

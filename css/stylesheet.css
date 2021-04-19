@@ -1,0 +1,263 @@
+*{ 
+	font-family: verdana ,tahoma;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+h1{
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: -10px;
+	font-weight: normal;
+}
+
+h1#kontakttitel{
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: -260px;
+}
+
+p{
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	font-size: 12pt;
+}
+
+#box{
+	height: 768px;
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: 35px;
+	background-image: url(../bilder/background.png);
+	background-repeat: no-repeat;
+	
+	-webkit-box-shadow: 3px 10px 50px rgb(0, 0, 0);
+	-moz-box-shadow: 3px 3px 50px rgb(0, 0, 0);
+	box-shadow: 5px 5px 40px rgb(0, 0, 0);
+}
+
+dl{
+	margin-top: 0px;
+	margin-bottom: -30px;
+}
+
+dt{
+	margin-bottom: -15px;
+}
+
+#head{
+	width: 1024px;
+	height: 142px;
+	margin-left: -5px;
+	background-color: white;
+}
+
+#content{
+	height: 620px;
+	width: 835px;
+	margin-left: 181px;
+}
+
+#logo{
+	height: 130px;
+	width: 248px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: -15px;
+}
+
+a img{
+	border: 0px;
+}
+
+#navioben{
+	margin-left: 245px;
+	width: 774px;
+	height: 75px;
+	text-align: center;
+	background-color: white;
+}
+
+li#oben{
+	height: 38px;
+	width: 165px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 15px;
+	list-style-type: none;
+	font-weight: normal;
+}
+
+li#oben a:link{
+	text-decoration: none;
+	color: black;
+	font-size: 20pt;
+	display: block;
+	margin-right: 2px;
+	margin-left: -15px;
+	font-weight: normal;
+	height: 38px;
+}
+
+li#oben a:visited{
+	text-decoration: none;
+	font-size: 17pt;
+	color: black;
+	font-weight: normal;
+	height: 38px;
+}
+
+li#oben a:hover{
+	color: #0489D8;
+	box-shadow: 0 0 5px rgb(210, 203, 203);
+	background-color: rgb(255, 255, 255);
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	display: block;
+	font-weight: normal;
+	height: 38px;
+}
+
+#navilinks{
+	height: 634px;
+	width: 175px;
+	margin-left: -10px;
+	float: left;
+}
+
+ul#navil{
+	margin-top: -2px;
+}
+
+li{
+	margin-left: -15px;
+	list-style-type: none;
+	color: white;
+	padding-top: 2px;
+}
+
+li#unter a:link{
+	height: 40px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 11pt;
+	display: block;
+	width: 225px;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+li#unter a:visited{
+	height: 40px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 11pt;
+	display: block;
+	width: 225px;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+li#unter a:hover{
+	width: 225px;
+	color: rgb(4, 137, 216);
+	box-shadow: 0 0 5px rgb(210, 203, 203);
+	background-color: rgb(255, 255, 255);
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+#headbild{
+	border: 1px solid silver;
+	height: 295px;
+	width: 766px;
+	margin-top: 5px;
+	margin-left: 55px;
+}
+
+
+#inhalt{
+	width: 768px;
+	height: 300px;
+	margin-top: 5px;
+	margin-left: 55px;
+	background-color: white;
+	overflow: auto;
+}
+
+#menu {
+	position: absolute;
+}
+
+#seitentitel{
+	position: absolute;
+	width: 200px;
+	height: 120px;
+	top: 630px;
+	margin-left: -25px;
+	font-size: 30pt;
+	color: white; 
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+}
+
+#balkenlinks{
+	margin-top: -645px;
+	margin-left: -5px;
+	height: 645px;
+	width: 158px;
+	background-color: white;
+}
+
+#copyright{
+	margin-left: 708px;
+	margin-top: -12px;
+	color: #A7A7A7;
+	font-size: 7pt;
+	width: 350px;
+}
+
+table{
+	margin-top: -150px;
+	margin-left: 6px;
+}
+
+tr{
+
+}
+
+td{
+	border: 1px solid lightgrey;
+	width: 350px;
+	height: 30px;
+}
+
+a.email{
+	color: #0489D8;
+}
+
+a.links{
+	color: #0489D8;
+	text-decoration: none;
+	target: blank;	
+}
+
+a.links:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
